@@ -1,0 +1,13 @@
+#ifndef OTHER_H
+#define OTHER_H
+
+#include "../arithmetic/service/arithmetic_service.h"
+#include "../binary/binary.h"
+#include "../type.h"
+
+int s21_truncate(s21_decimal value, s21_decimal *result);
+int s21_negate(s21_decimal value, s21_decimal *result);
+int s21_floor(s21_decimal value, s21_decimal *result);
+int s21_round(s21_decimal value, s21_decimal *result);
+
+#endif
